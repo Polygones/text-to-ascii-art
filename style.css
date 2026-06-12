@@ -1,0 +1,8 @@
+*{box-sizing:border-box}
+body{font-family:Arial,sans-serif;padding:20px;margin:0}
+.container{max-width:1200px;margin:auto}
+textarea{width:100%;min-height:120px;padding:10px}
+.buttons{display:flex;gap:10px;flex-wrap:wrap;margin:15px 0}
+button{padding:10px 16px;cursor:pointer}
+pre{border:1px solid #ccc;padding:15px;overflow:auto;min-height:200px;white-space:pre}
+@media(max-width:768px){button{flex:1}}
